@@ -3,4 +3,5 @@
     --gutter: 30px;
     --small-size: 26;
     --big-size: 36;
+    --transition: 0.75s cubic-bezier(0.75, 0.5, 0, 1);
 }
