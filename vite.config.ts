@@ -9,4 +9,9 @@ export default defineConfig({
 			'@': '/src',
 		},
 	},
+	css: {
+		modules: {
+			generateScopedName: '[name]__[local]_[hash:base64:5]',
+		},
+	},
 });
