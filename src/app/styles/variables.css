@@ -1,0 +1,6 @@
+:root {
+    --index: calc(1vw + 1vh);
+    --gutter: 30px;
+    --small-size: 26;
+    --big-size: 36;
+}
