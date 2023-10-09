@@ -1,0 +1,1 @@
+export { SoundSwitch } from './SoundSwitch';
