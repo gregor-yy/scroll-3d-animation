@@ -1,0 +1,81 @@
+.frameContent {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shadow {
+    background-color: rgba(0, 0, 0, 0.88)
+}
+
+.frameContent h2 {
+    text-align: center;
+    font-size: calc(var(--index) * 3.3);
+
+}
+
+.frameContent h1,
+h2,
+h3,
+h4 {
+    width: min-content;
+    line-height: 1;
+}
+
+.frameSection {
+    position: relative;
+}
+
+.frameSection img,
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Vertical */
+.frameSectionVertical {
+    width: calc(var(--index) * var(--small-side));
+    height: calc(var(--index) * var(--big-side));
+}
+
+.frameSectionVertical.frameSectionLeft {
+    right: calc(var(--small-side) / 2 * var(--index) + var(--gutter));
+}
+
+.frameSectionVertical.frameSectionRight {
+    left: calc(var(--small-side) / 2 * var(--index) + var(--gutter));
+}
+
+/* Horizontal */
+.frameSectionHorizontal {
+    width: calc(var(--index) * var(--big-side));
+    height: calc(var(--index) * var(--small-side));
+}
+
+.frameSectionHorizontal.frameSectionLeft {
+    right: calc(var(--big-side) / 2 * var(--index) + var(--gutter));
+}
+
+.frameSectionHorizontal.frameSectionRight {
+    left: calc(var(--big-side) / 2 * var(--index) + var(--gutter));
+}
+
+.frameText {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.frameText h3 {
+    font-size: calc(var(--index) * 3);
+    margin-bottom: 2vh;
+}
+
+.frameText p {
+    font-size: calc(var(--index));
+    padding-right: calc(var(--index) * 5);
+}
