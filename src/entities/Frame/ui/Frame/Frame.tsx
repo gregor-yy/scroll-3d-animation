@@ -13,7 +13,7 @@ export const Frame: FC<FrameProps> = ({ offset, zSpacing, children }) => {
 		<div
 			className={styles.wrapper}
 			id="frame"
-			style={{ transform: `translateZ(${offset}px)`, opacity: offset < Math.abs(zSpacing) ? 1 : 0 }}
+			style={{ transform: `translateZ(${offset}px)`, opacity: offset < Math.abs(zSpacing) / 2 ? 1 : 0 }}
 		>
 			{children}
 		</div>

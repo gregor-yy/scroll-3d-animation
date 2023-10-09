@@ -5,4 +5,5 @@
     transition: var(--transition), opacity 0.3s ease;
     will-change: transform;
     transform-style: preserve-3d;
+    pointer-events: none;
 }

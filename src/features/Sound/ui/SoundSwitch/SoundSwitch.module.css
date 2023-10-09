@@ -1,0 +1,13 @@
+.switch {
+    cursor: pointer;
+    position: absolute;
+    right: var(--index);
+    bottom: var(--index);
+    width: calc(var(--index) * 1.5);
+    height: calc(var(--index) * 1.5);
+    transition: opacity 0.25s;
+}
+
+.poused {
+    opacity: 0.25;
+}

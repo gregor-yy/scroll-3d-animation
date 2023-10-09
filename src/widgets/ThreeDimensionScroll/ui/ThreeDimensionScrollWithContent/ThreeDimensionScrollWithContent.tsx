@@ -157,7 +157,7 @@ const frames: IFrame[] = [
 		id: 19,
 		content: (
 			<div className={classNames(styles.frameContent, styles.shadow)}>
-				<div className={styles.frameSection}>
+				<div className={classNames(styles.frameSection, styles.frameSectionFull)}>
 					<video src={Video} autoPlay muted loop />
 				</div>
 			</div>
