@@ -1,1 +1,1 @@
-export { ThreeDimensionScroll } from './ui/ThreeDimensionScroll';
+export { ThreeDimensionScrollWithContent } from './ui/ThreeDimensionScrollWithContent';
